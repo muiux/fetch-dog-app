@@ -23,13 +23,7 @@ Follow these steps to run the project locally:
    Using npm:
 
    ```sh
-   npm install
-   ```
-
-   Using yarn:
-
-   ```sh
-   yarn install
+   npm install --legacy-peer-deps
    ```
 
 3. **Run the development server:**
@@ -40,22 +34,16 @@ Follow these steps to run the project locally:
    npm run dev
    ```
 
-   Using yarn:
-
-   ```sh
-   yarn dev
-   ```
-
 4. **Open the application:**
 
    Open your browser and navigate to `http://localhost:3000` to see the application running.
 
 ## Scripts
 
-- `npm run dev` or `yarn dev`: Starts the development server.
-- `npm run build` or `yarn build`: Builds the application for production.
-- `npm run lint` or `yarn lint`: Runs ESLint to check for linting errors.
-- `npm run preview` or `yarn preview`: Previews the production build locally.
+- `npm run dev`: Starts the development server.
+- `npm run build`: Builds the application for production.
+- `npm run lint`: Runs ESLint to check for linting errors.
+- `npm run preview`: Previews the production build locally.
 
 ## Folder Structure
 

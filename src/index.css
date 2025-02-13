@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@source "../node_modules/flowbite";
+@plugin "flowbite/plugin";
+
+div[data-testid="modal-overlay"] {
+  background-color: #dddddddd;
+}
+
+select#breeds {
+  background: none;
+}
